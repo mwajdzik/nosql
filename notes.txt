@@ -1,0 +1,10 @@
+
+* Column (Cassandra, HBase, etc.)
+
+* Document (CouchDB, MongoDB, etc.)
+
+* Key-Value (Redis, Riak, etc.)
+
+* Graph (Neo4J, Virtuoso, etc.)
+
+* Multi-Model (OrientDB, ArangoDB, etc.)
