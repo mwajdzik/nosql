@@ -1,6 +1,5 @@
 package org.mw.mongodb.data;
 
-import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,9 +13,9 @@ public class SpringMongoConfig extends AbstractMongoConfiguration {
         return "test";
     }
 
-    @Override
     @Bean
-    public Mongo mongo() throws Exception {
+    @Override
+    public MongoClient mongoClient() {
         return new MongoClient("127.0.0.1");
     }
 }

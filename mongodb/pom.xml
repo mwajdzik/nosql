@@ -21,13 +21,13 @@
     <properties>
         <java.version>1.8</java.version>
 
-        <mongo.driver.version>3.0.3</mongo.driver.version>
+        <mongo.driver.version>3.6.3</mongo.driver.version>
         <guava.version>18.0</guava.version>
         <spark.version>1.1</spark.version>
         <freemarker.version>2.3.20</freemarker.version>
 
-        <spring.version>4.2.0.RELEASE</spring.version>
-        <spring.data.mongo.version>1.7.2.RELEASE</spring.data.mongo.version>
+        <spring.version>5.0.4.RELEASE</spring.version>
+        <spring.data.mongo.version>2.0.4.RELEASE</spring.data.mongo.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.12</version>
         </dependency>
 
         <dependency>
