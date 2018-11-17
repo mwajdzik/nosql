@@ -24,6 +24,7 @@ public class TestSpringData {
 
     @Test
     public void test() {
+        assertNotNull(mongoTemplate);
         mongoTemplate.dropCollection("users");
 
         final User user = new User("amw061", "password");

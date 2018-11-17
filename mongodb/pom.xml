@@ -16,6 +16,7 @@
     <modules>
         <module>java-driver</module>
         <module>spring-data</module>
+        <module>morphia</module>
     </modules>
 
     <properties>

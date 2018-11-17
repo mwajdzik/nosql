@@ -1,7 +1,9 @@
 
-* Column (Cassandra, HBase, etc.)
-
 * Document (CouchDB, MongoDB, etc.)
+
+	- https://blog.philipphauer.de/mongodb-java-developers-m101j-lessons-learned/
+
+* Column (Cassandra, HBase, etc.)
 
 * Key-Value (Redis, Riak, etc.)
 
